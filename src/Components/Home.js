@@ -23,6 +23,9 @@ const Home = () => {
               <table class="table-auto w-full">
                 <thead class="text-xs font-semibold uppercase text-gray-400 bg-gray-50">
                   <tr>
+                  <th class="p-2 whitespace-nowrap font-semibold text-left">
+                      <input type={"checkbox"}/>
+                    </th>
                     <th class="p-2 whitespace-nowrap font-semibold text-left">
                       FirstName
                     </th>
@@ -42,6 +45,9 @@ const Home = () => {
                 </thead>
                 <tbody class="text-sm divide-y divide-gray-100">
                   <tr>
+                  <td class="p-2 whitespace-nowrap font-semibold text-left">
+                      <input type={"checkbox"}/>
+                    </td>
                     <td class="p-2 whitespace-nowrap flex items-center w-10 h-10 flex-shrink-0 mr-2 sm:mr-3 font-medium text-gray-800">
                       ABHI
                     </td>
