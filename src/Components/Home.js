@@ -7,6 +7,10 @@ const Home = () => {
     navigate("/add");
   };
 
+  const UpdateUser = () => {
+    navigate("/update");
+  };
+
   return (
     <div class="antialiased bg-gray-100 text-gray-600 h-screen px-4">
       <div class="flex flex-col justify-center h-full">
@@ -62,7 +66,9 @@ const Home = () => {
                         ADD
                       </button>
 
-                      <button class="bg-yellow-400 text-gray-50  rounded-md px-3 ">
+                      <button
+                      onClick={UpdateUser} 
+                       class="bg-yellow-400 text-gray-50  rounded-md px-3 ">
                         Update
                       </button>
 
